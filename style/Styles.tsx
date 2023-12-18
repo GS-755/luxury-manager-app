@@ -5,12 +5,17 @@ const Styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     paddingLeft: 15,
-    paddingRight: 15
+    paddingRight: 15,
+    backgroundColor: '#FFF'
   },
   section: {
     paddingTop: 25,
     paddingBottom: 25,
     position: 'relative'
+  },
+  nonContainer: {
+    backgroundColor: '#fff',
+    color: '#000'
   }
 });
 
