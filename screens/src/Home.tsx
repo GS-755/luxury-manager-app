@@ -1,5 +1,6 @@
 import Styles from "../../style/Styles";
 import { Button, Text, View } from "react-native";
+import { BottomNavbar } from "../layout/BottomNavbar";
 
 const apiPath = process.env['API_PATH'];
 const Home = ({ navigation }): JSX.Element => {
@@ -17,6 +18,7 @@ const Home = ({ navigation }): JSX.Element => {
           />
         </View>
       </View>
+      <BottomNavbar></BottomNavbar>
     </>
   );
 }
